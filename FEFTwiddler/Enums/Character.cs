@@ -261,6 +261,18 @@
         Ike = 0xFB,
         Lucina = 0xFC,
         Robin = 0xFD,
+        //customs
+        Phoenix = 0xFE,
+        Marisa = 0xFF,
+        Aiya = 0x100,
+        Yuzu = 0x101
+        Hana = 0x102
+        Kanna = 0x103
+        Kaia = 0x104
+        Lucien = 0x105
+        Lawson = 0x106
+        Lan = 0x107
+        Layla = 108
         // Cipher
         CipherMarth = 0x200,
         CipherLucina = 0x300,
@@ -316,7 +328,18 @@
                 charId == Character.Silas ||
                 charId == Character.Subaki ||
                 charId == Character.Takumi ||
-                charId == Character.Xander;
+                charId == Character.Xander ||
+                charId == Character.Phoenix ||
+                charId == Character.Marisa ||
+                charId == Character.Aiya ||
+                charId == Character.Kanna ||
+                charId == Character.Yuzu ||
+                charId == Character.Hana ||
+                charId == Character.Kaia ||
+                charId == Character.Lawson ||
+                charId == Character.Lucien ||
+                charId == Character.Lan ||
+                charId == Character.Layla;
         }
 
         public static bool IsGen1Special(this Character charId)
@@ -375,7 +398,8 @@
         public static bool IsBeastCharacter(this Character charId)
         {
             return charId == Character.Kaden ||
-                charId == Character.Keaton;
+                charId == Character.Keaton ||
+                charId == Character.Lawson;
         }
     }
 }
