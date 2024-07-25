@@ -136,5 +136,9 @@
         Outrealm = 0x80,
         // More DLC
         PegasusKnight = 0x88,
+        Soldier_M = 0x89,
+        Soldier_F = 0x8A,
+        Gladiator_M = 0x8B,
+        Gladiator_F = 0x8C
     }
 }
